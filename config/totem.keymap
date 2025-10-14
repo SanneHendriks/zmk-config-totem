@@ -89,7 +89,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp CAPS        &bt K_APP      &kp UP         &kp EQUAL        &kp LBRC    &kp RBRC  &kp N7        &kp N8       &kp N9       &kp PLUS
+        &kp CAPS        &kp K_APP      &kp UP         &kp EQUAL        &kp LBRC    &kp RBRC  &kp N7        &kp N8       &kp N9       &kp PLUS
         &mt LCTRL HOME  &mt LALT LEFT  &mt LCMD DOWN  &mt LSHFT RIGHT  &kp LBKT    &kp RBKT  &mt RSHFT N4  &mt RCMD N5  &mt RALT N6  &mt RCTRL MINUS
 &trans  &kp END         &kp PG_UP      &kp LG(S)      &kp PG_DN        &kp LPAR    &kp RPAR  &kp N1        &kp N2       &kp N3       &kp ASTRK        &trans
                                        &trans         &trans           &trans      &trans    &mo ADJ       &kp N0
