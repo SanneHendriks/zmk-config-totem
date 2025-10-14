@@ -118,7 +118,7 @@
         &kp EXCL       &kp AT     &kp HASH   &kp DLLR   &kp PRCNT    &kp CARET     &kp AMPS      &kp ASTRK      &kp SQT        &kp DQT
         &kp RA(GRAVE)  &kp RA(N)  &kp RA(E)  &kp RA(U)  &kp RA(I)    &kp C_MUTE    &kp RA(Y)     &kp RA(N2)     &kp RA(N3)     &trans
 &trans  &kp GRAVE      &kp TILDE  &trans     &trans     &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_DEC  &kp C_BRI_INC  &kp C_AC_SEARCH  &trans
-                                  &trans     &mo ADJ    &trans       &trans        trans         &trans
+                                  &trans     &mo ADJ    &trans       &trans        &trans         &trans
             >;
         };
 
