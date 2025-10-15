@@ -63,10 +63,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q        &kp W       &kp E       &kp R        &kp T        &kp Y    &kp U        &kp I       &kp O       &kp P
-           &mt LCTRL A  &mt LALT S  &mt LCMD D  &mt LSHFT F  &kp G        &kp H    &mt RSHFT J  &mt RCMD K  &mt RALT L  &mt RCTRL SEMI
-&kp GRAVE  &kp Z        &kp X       &kp C       &kp V        &kp B        &kp N    &kp M        &kp COMMA   &kp DOT     &kp FSLH        &kp BSLH
-                                    &kp DEL     &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM ESC  &kp BSPC
+           &kp Q        &kp W       &kp E         &kp R        &kp T        &kp Y    &kp U        &kp I       &kp O       &kp P
+           &mt LCTRL A  &mt LALT S  &mt LCMD D    &mt LSHFT F  &kp G        &kp H    &mt RSHFT J  &mt RCMD K  &mt RALT L  &mt RCTRL SEMI
+&kp GRAVE  &kp Z        &kp X       &kp C         &kp V        &kp B        &kp N    &kp M        &kp COMMA   &kp DOT     &kp FSLH        &kp BSLH
+                                    &mt LCMD DEL  &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM ESC  &kp BSPC
             >;
         };
 
@@ -79,20 +79,20 @@
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-            //             ┃  C LOCK   ┃    APP    ┃    UP     ┃     =     ┃     {     ┃   ┃     }     ┃     7     ┃     8     ┃     9     ┃     +     ┃
+            //             ┃  C LOCK   ┃   PRINT   ┃    UP     ┃     =     ┃     {     ┃   ┃     }     ┃     7     ┃     8     ┃     9     ┃     +     ┃
             //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
             //             ┃   HOME    ┃   LEFT    ┃   DOWN    ┃   RIGHT   ┃     [     ┃   ┃     ]     ┃     4     ┃     5     ┃     6     ┃     -     ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃           ┃    END    ┃   P UP    ┃   SAVE    ┃  P DOWN   ┃     (     ┃   ┃     )     ┃     1     ┃     2     ┃     3     ┃     *     ┃           ┃
+            // ┃   GLOBE   ┃    END    ┃   P UP    ┃   LOCK    ┃  P DOWN   ┃     (     ┃   ┃     )     ┃     1     ┃     2     ┃     3     ┃     *     ┃           ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             //                                     ┃           ┃           ┃           ┃   ┃           ┃    ADJ    ┃     0     ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp CAPS        &kp K_APP      &kp UP         &kp EQUAL        &kp LBRC    &kp RBRC  &kp N7        &kp N8       &kp N9       &kp PLUS
-        &mt LCTRL HOME  &mt LALT LEFT  &mt LCMD DOWN  &mt LSHFT RIGHT  &kp LBKT    &kp RBKT  &mt RSHFT N4  &mt RCMD N5  &mt RALT N6  &mt RCTRL MINUS
-&trans  &kp END         &kp PG_UP      &kp LG(S)      &kp PG_DN        &kp LPAR    &kp RPAR  &kp N1        &kp N2       &kp N3       &kp ASTRK        &trans
-                                       &trans         &trans           &trans      &trans    &mo ADJ       &kp N0
+           &kp CAPS        &kp LS(LC(LG(N4)))  &kp UP         &kp EQUAL        &kp LBRC    &kp RBRC  &kp N7        &kp N8       &kp N9       &kp PLUS
+           &mt LCTRL HOME  &mt LALT LEFT       &mt LCMD DOWN  &mt LSHFT RIGHT  &kp LBKT    &kp RBKT  &mt RSHFT N4  &mt RCMD N5  &mt RALT N6  &mt RCTRL MINUS
+&kp GLOBE  &kp END         &kp PG_UP           &kp C_AL_LOCK  &kp PG_DN        &kp LPAR    &kp RPAR  &kp N1        &kp N2       &kp N3       &kp ASTRK        &trans
+                                               &trans         &trans           &trans      &trans    &mo ADJ       &kp N0
             >;
         };
 
@@ -109,7 +109,7 @@
             //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
             //             ┃     à     ┃     ã     ┃     á     ┃     ä     ┃     â     ┃   ┃   MUTE    ┃    YEN    ┃   EURO    ┃   POUND   ┃           ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃           ┃     `     ┃     ~     ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   BRI-    ┃   BRI+    ┃  SEARCH   ┃           ┃
+            // ┃           ┃     `     ┃     ~     ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   BRI-    ┃   BRI+    ┃  SEARCH   ┃   POWER   ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             //                                     ┃           ┃    ADJ    ┃           ┃   ┃           ┃           ┃           ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -117,7 +117,7 @@
             bindings = <
         &kp EXCL       &kp AT     &kp HASH   &kp DLLR   &kp PRCNT    &kp CARET     &kp AMPS      &kp ASTRK      &kp SQT        &kp DQT
         &kp RA(GRAVE)  &kp RA(N)  &kp RA(E)  &kp RA(U)  &kp RA(I)    &kp C_MUTE    &kp RA(Y)     &kp RA(N2)     &kp RA(N3)     &trans
-&trans  &kp GRAVE      &kp TILDE  &trans     &trans     &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_DEC  &kp C_BRI_INC  &kp C_AC_SEARCH  &trans
+&trans  &kp GRAVE      &kp TILDE  &trans     &trans     &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_DEC  &kp C_BRI_INC  &kp C_AC_SEARCH  &kp C_POWER
                                   &trans     &mo ADJ    &trans       &trans        &trans         &trans
             >;
         };
